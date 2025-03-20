@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+    }
+
+    #container {
+        background-image: url("https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/kingpin-daredevil.jpg");
+        height: 100vh;
+        background-size: cover;
+        transition-duration: 1s;
+    }
+
+    .next {
+        position: absolute;
+        height: 50px;
+        top: 50%;
+        right: 20px;
+        /* transform: translateY(-50%); */
+
+    }
+
+    .prev {
+        position: absolute;
+        height: 50px;
+        top: 50%;
+        left: 20px;
+        transform: rotate(180deg);
+
+    }
+
+    .corousal {
+        display: flex;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+
+
+    }
+
+    .corousal img {
+        width: 150px;
+        height: 100px;
+        margin: 5px;
+        /* transition: transform 0.5s ease;
+         */
+        transition-duration: 1s;
+        cursor: pointer;
+        opacity: 40%;
+
+    }
+</style>
+
+<body>
+    <div id="container">
+        <img class="next" onclick="next()" src="./assets/fast-forward.png" alt="right-arrow">
+        <img class="prev" onclick="prev()" src="./assets/fast-forward.png" alt="left-arrow">
+        <div class="corousal">
+            <img class='corousal-img'
+                src="https://static0.gamerantimages.com/wordpress/wp-content/uploads/2025/03/kingpin-daredevil.jpg"
+                alt="DaredevilImage">
+            <img class='corousal-img' src="https://4kwallpapers.com/images/walls/thumbs_3t/21603.jpg" alt="SpiderMan">
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
