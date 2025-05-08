@@ -1,0 +1,52 @@
+.navbar {
+    background-color: rgba(29, 28, 28, 0.877);
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    height: inherit;
+}
+
+#logo-name {
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color: white;
+    padding: 10px
+}
+
+.navbar>div {
+    display: flex;
+    width: 25%;
+    justify-content: space-between;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.navbar>div {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+}
+
+#navleft>button {
+    background-color: darkblue;
+    border-radius: 4px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    margin: 0;
+}
+
+#navleft>div {
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 30%;
+
+}

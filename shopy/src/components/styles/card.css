@@ -1,0 +1,40 @@
+.container {
+    border: black solid 1px;
+    padding: 5%;
+    width: 30%;
+    margin-bottom: 5%;
+    ;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+
+h2 {
+    color: #646cff;
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 2em;
+}
+
+button {
+    background-color: #646cff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1.2em;
+    margin-top: 2em;
+}
+
+button:hover {
+    background-color: #535bf2;
+}
