@@ -1,7 +1,9 @@
-import React, { useState } from 'react'
+import React, { createContext, useState } from 'react'
 import Register from './components/Register';
 import PerDetails from './components/PerDetails';
 import { useNavigate } from 'react-router-dom';
+
+
 function Shopping() {
     const [page, setPage] = useState(0);
     const [mail, setMail] = useState("");
@@ -10,6 +12,7 @@ function Shopping() {
     const [address, setAddress] = useState("");
     const [landmark, setLandmark] = useState("");
     const navigate = useNavigate();
+
     function isValid(mail) {
         const regex = /^[a-zA-Z0-9._%+-]+@gct\.ac\.in$/;
         if (regex.test(mail)) {
@@ -46,7 +49,9 @@ function Shopping() {
     }
     return (
         <>
+
             {page == 0 && <Register setMail={setMail} handle={handlePageChange} /> || page == 1 && <PerDetails setAddress={setAddress} setLandmark={setLandmark} setPhone={setPhone} setUsername={setUsername} handleSubmit={handleSubmit} />}
+
         </>
     )
 }
