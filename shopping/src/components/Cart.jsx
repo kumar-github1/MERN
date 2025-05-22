@@ -128,7 +128,7 @@ function Cart() {
                             <span className="text-xl font-bold">${cartTotal.toFixed(2)}</span>
                         </div>
                     </div>
-                    <button className="btn btn-primary w-full mt-6">
+                    <button className="btn btn-primary w-full mt-6 font-montserrat">
                         Proceed to Checkout
                     </button>
                 </div>
