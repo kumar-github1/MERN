@@ -1,0 +1,30 @@
+Backend 
+
+Client and Server
+
+Client is frontend 
+
+server is the said to be the backend of the work
+
+two types of servers:
+
+  application server and database server 
+
+     1.application server==>frontend and backend
+
+     2.database server==> backend and database
+
+Why we need a server?
+
+   A server is necessary for deploying the data and retrieving the data
+
+   server depends upon the operating system which is built over the kernel.
+
+
+
+api methods for CRUD operation:
+
+   Get  ==> get the data from the database
+   Post ==> Insert the data into the db
+   Put  ==> Update the data 
+   Delete  ==> To remove the data from the db
